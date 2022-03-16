@@ -1,12 +1,13 @@
 {
   "name": "next-searchbar-semantic",
-  "version": "0.1.0",
+  "version": "0.0.0-development",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "semantic-release": "semantic-release"
   },
   "dependencies": {
     "next": "12.1.0",
@@ -15,6 +16,11 @@
   },
   "devDependencies": {
     "eslint": "8.11.0",
-    "eslint-config-next": "12.1.0"
+    "eslint-config-next": "12.1.0",
+    "semantic-release": "^19.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/emreimamoglu/emre-imamoglu-next-searchbar-semantic-release.git"
   }
 }
