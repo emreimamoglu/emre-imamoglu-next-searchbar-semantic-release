@@ -2,6 +2,7 @@
   "name": "next-searchbar-semantic",
   "version": "0.0.0-development",
   "private": true,
+  "main": "index.js",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
