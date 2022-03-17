@@ -10,7 +10,8 @@
     "semantic-release": "semantic-release",
     "commit": "git add . && git-cz",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "test": "NODE_OPTIONS=--experimental-vm-modules npx jest"
   },
   "dependencies": {
     "@emotion/react": "^11.8.2",
@@ -38,7 +39,12 @@
     "eslint": "8.11.0",
     "eslint-config-next": "12.1.0",
     "eslint-plugin-storybook": "^0.5.7",
-    "semantic-release": "^19.0.2"
+    "semantic-release": "^19.0.2",
+    "@testing-library/jest-dom": "^5.16.2",
+    "@testing-library/user-event": "^13.5.0",
+    "jest": "^27.5.1",
+    "@testing-library/react": "^12.1.4",
+    "identity-obj-proxy": "^3.0.0"
   },
   "repository": {
     "type": "git",
@@ -48,5 +54,8 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "jest": {
+    "transform": {}
   }
 }
