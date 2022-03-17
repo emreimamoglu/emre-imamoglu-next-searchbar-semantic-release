@@ -11,7 +11,7 @@ This is a customizable nextjs searchbar.
 Install my-project with npm
 
 ```bash
-  cd my-project
+  cd emre-imamoglu-next-searchbar-semantic-release
   npm install
 ```
 ## Running in dev mode
